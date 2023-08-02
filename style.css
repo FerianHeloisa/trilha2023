@@ -1,0 +1,163 @@
+body{
+   background-color: rgb(244,244,244);
+}
+.alto-contraste {
+    background-color: rgb(55,55,55);
+    color: rgb(244,244,244);
+}
+
+#altoContrasteBtn.alto-contraste {
+    background-color:rgb(244,244,244);
+    color: rgb(55,55,55);
+}
+#altoContrasteBtn{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color:rgb(36,0,35);
+    background-color:white;
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 30px;
+}
+header {
+    background: rgb(192,178,131);
+    height: 60px;
+    padding: 2em;
+    margin: 0;
+    border: none;
+}
+body.alto-contraste header{
+    background:rgb(192,178,131);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.Logo{
+    height: 120px;
+    width: 120px;
+    margin: 0;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+ul li{
+    color: white;
+    font-size: 20px;
+}
+body.alto-contraste ul li{
+    color: black;
+    font-weight: bold;
+}
+.Sobre{
+    background: white;
+    color: black;
+    padding: .8rem;
+}
+body.alto-contraste.Sobre{
+    background: black;
+    color: white;
+}
+.Meses{
+    text-align: right;
+    text-size-adjust:initial;
+    font-size: 20px;
+    color: white;
+}
+.Sobre{
+    display: flex;
+    justify-content: space-between;
+}
+a:hover{
+    color:rgb(37,37,37);
+    text-decoration: underline;
+}
+a:link{
+    text-decoration: none;
+    color:white;
+}
+h1 {
+    color: rgb(37,37,37);
+    font-family: 'Lilita One', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+body.alto-contraste h1 {
+    color: rgb(244,244,244);
+}
+main p{
+    font-family: 'Amiri', serif;
+    font-size: 20px;
+}
+footer {
+    background: rgb(192,178,131);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80px; 
+}
+footer p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Ysabeau SC', sans-serif;
+    margin: 0;
+}
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+footer nav a {
+    display: block;
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+#Redes {
+    margin: 0;
+}
+#Redes a {
+    margin: 0 10px;
+}
+footer p:last-child {
+    margin-top: 20px; 
+}
+body.alto-contraste footer{
+    background: rgb(192,178,131);
+}
+body.alto-contraste footer p, body.alto-contraste footer nav a{
+    color: black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudoanonovo, .conteudohello, .conteudocrianca, .conteudoescola, .conteudoultimo, .conteudoaula, .conteudoforma, .conteudonatal, .conteudomae, .conteudoauto, .conteudojicosvi, .conteudotrabalhoingles, .conteudoalmoco, .conteudoformatura, .conteudoguararema, .conteudocarol, .conteudopai, .conteudorosas, .conteudojunino, .conteudodisney, .conteudomaria, .conteudojovem, .conteudoingles, .conteudosesc, .conteudosala, .conteudoaniversario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.anonovo, .hellokitty, .crianca, .crianca2, .crianca1, .crianca3, .natal, .natal1, .natal2, .natal3, .natal4, .forma, .forma1, .forma2, .forma3, .forma4, .forma5, .forma6, .forma7, .forma8, .forma9, .forma10, .forma11, .forma12, .forma13, .forma14, .aula, .aula1, .aula2, .aula3, .aula4, .aula5, .aula6, .aula7, .ultimo, .ultimo1, .ultimo2, .ultimo3, .ultimo4, .auto, .auto1, .auto2, .auto3, .auto4, .escola, .escola1, .escola3, .escola2, .escola4, .escola5, .escola6, .escola7, .escola8, .escola9, .escola10, .escola11, .jicosvi, .mae, .jicosvi1, .jicosvi2, .jicosvi3, .jicosvi4, .jicosvi5, .jicosvi6, .jicosvi7, .jicosvi8, .jicosvi9, .jicosvi10, .jicosvi11, .jicosvi12, .jicosvi13, .jicosvi14, .jicosvi15, .jicosvi16, .jicosvi17, .jicosvi18, .jicosvi19, .jicosvi20, .jicosvi21, .jicosvi22, .jicosvi23, .jicosvi24, .jicosvi25, .jicosvi26, .jicosvi27, .jicosvi28, .jicosvi29, .jicosvi30, .jicosvi31, .jicosvi32, .jicosvi33, .jicosvi34, .jicosvi35, .jicosvi36, .jicosvi37, .jicosvi38, .jicosvi39,  .usp, .usp1, .usp2, .usp3, .usp4, .usp5, .usp6, .usp7, .usp8, .usp9, .usp10, .pai, .pai2, .hellokitty2, .formatura, .almoco, .almoco2, .carol, .carol2, .trabalhoingles, .guararema, .guararema2, .guararema3, .junino, .junino1, .junino2, .junino3, .junino4, .junino5, .junino6, .junino7, .junino8, .junino9, .junino10, .junino11, .junino12, .junino13, .disney, .disney1, .disney2, .disney3, .disney4,.disney5, .disney6, .disney7, .disney8, .disney9, .disney10, .disney11, .disney12, .disney13, .disney14, .disney15, .disney16, .disney17, .disney18, .disney19, .disney20, .disney21, .disney22, .disney23, .disney24, .disney25, .disney26, .disney27, .disney28, .disney29, .disney30, .disney31, .disney32, .disney33, .disney34, .disney35, .disney36, .disney37, .disney38, .disney39, .disney40, .disney41, .disney42, .disney43, .disney44, .disney45, .disney46, .disney47, .disney48, .disney49, .disney50, .disney51, .disney52, .disney53, .disney54, .disney55, .disney56, .disney57, .rosas, .rosas1, .rosas2, .jovem, .jovem1, .jovem2, .ingles1, .ingles2, .ingles, .sesc, .sesc1, .sesc2, .aniversario, .aniversario1, .aniversario2, .aniversario3, .aniversario4, .aniversario5, .sala, .sala1, .sala2, .sala3, .maria, .maria1{
+    height: 300px;
+    width: auto;
+}
+.hellokitty-container, .sala2-container, .escola2-container, .ultimo-container, .ultimo2-container, .natal-container, .natal2-container, .forma-container, .forma2-container, .forma3-container, .forma4-container, .aula-container, .aula2-container, .aula3-container, .escola3-container, .auto-container, .auto2-container, .crianca-container, .escola-container, .jicosvi-container, .jicosvi2-container, .jicosvi3-container, .jicosvi4-container, .jicosvi5-container, .jicosvi6-container, .jicosvi7-container, .jicosvi8-container, .jicosvi9-container, .jicosvi10-container, .jicosvi11-container,  .usp-container, .usp2-container, .usp3-container, .almoco-container, .pai-container, .carol-container, .guararema-container, .junino-container, .junino2-container, .junino3-container, .junino4-container .disney-container, .disney2-container, .disney3-container, .disney4-container, .disney5-container, .disney6-container, .disney7-container, .sala-container, .aniversario2-container, .rosas-container, .jovem-container, .ingles-container, .sesc-container, .aniversario-container, .maria-container, .disney8-container, .disney9-container, .disney10-container, .disney11-container,.disney12-container,.disney13-container, .disney14-container, .disney15-container, .disney16-container {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
